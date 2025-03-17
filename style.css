@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  position: absolute;
+  font-family: "Inter", sans-serif;
+  width: 100vw;
+  text-align: center;
+  padding: 16px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.video-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video {
+  width: 50vw;
+  height: 60vh;
+  background-color: gray;
+}
+
+/***************/
+/* Main Body - Sticky Effect */
+#body-one,
+#body-two {
+  width: 100vw;
+  display: flex;
+  flex: 1;
+}
+.img-container-one,
+.img-container-two {
+  width: 50vw;
+  height: 2000px;
+  background-color: lightblue;
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.img-one,
+.img-two {
+  width: 40vw;
+  height: 70vh;
+  /* background-color: grey; */
+
+  position: sticky;
+  position: -webkit-sticky;
+  top: 80px;
+}
+
+.text-container-one,
+.text-container-two {
+  display: inline-block;
+  flex: 1;
+  padding: 32px;
+  width: 50vw;
+  height: auto;
+}
